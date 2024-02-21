@@ -14,9 +14,6 @@ export function App(): ReactElement {
 						<li>
 							<a href="#">Blog</a>
 						</li>
-						<li>
-							<a href="#">Link 3</a>
-						</li>
 					</ul>
 				</nav>
 			</header>
