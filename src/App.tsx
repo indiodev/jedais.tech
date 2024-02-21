@@ -24,14 +24,30 @@ export function App(): ReactElement {
 				</nav>
 			</header>
 
-			<section className="flex flex-col gap-4 flex-1 items-center justify-center">
-				<img
-					src="/logo.png"
-					className="w-40 h-40 pointer-events-none animate-bounce"
-				/>
-				<h1 className="text-secondary uppercase font-semibold text-lg">
-					Em construção...
-				</h1>
+			<section className="flex flex-col gap-4 flex-1 items-center justify-center relative">
+				<div className="flex flex-col items-center z-10">
+					<img
+						src="/logo.png"
+						className="w-40 h-40 pointer-events-none animate-bounce"
+					/>
+					<h1 className="text-secondary uppercase font-semibold text-lg">
+						Em construção...
+					</h1>
+				</div>
+
+				<video
+					id="background-video"
+					autoPlay
+					loop
+					muted
+					className="absolute top-0 left-0 w-full h-full object-cover z-0"
+					// poster="https://assets.codepen.io/6093409/river.jpg"
+				>
+					<source
+						src="/hero-video-bg.mp4"
+						type="video/mp4"
+					/>
+				</video>
 			</section>
 		</div>
 	);
