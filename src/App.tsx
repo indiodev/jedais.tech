@@ -12,10 +12,13 @@ export function App(): ReactElement {
 
 					<ul className="flex gap-4 text-secondary">
 						<li>
-							<a href="#">Inicio</a>
+							<a href="#">HOME</a>
 						</li>
 						<li>
-							<a href="#">Blog</a>
+							<a href="#">CURSOS</a>
+						</li>
+						<li>
+							<a href="#">BLOG</a>
 						</li>
 					</ul>
 				</nav>
