@@ -1,12 +1,9 @@
-import { useState } from 'react'
+import type { ReactElement } from 'react';
 
-export function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-    <h1>Hello Jedais</h1>
-    </>
-  )
+export function App(): ReactElement {
+	return (
+		<>
+			<h1>Hello Jedais</h1>
+		</>
+	);
 }
-
